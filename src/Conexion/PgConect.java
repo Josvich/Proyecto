@@ -36,7 +36,7 @@ public class PgConect {
             Logger.getLogger(PgConect.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    //comentario
     public SQLException noQuery(String nsql) {
         System.out.println(nsql);
         try {
